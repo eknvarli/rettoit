@@ -407,7 +407,7 @@
 
             {#if isMenuOpen}
                 <div
-                    class="lg:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-800"
+                    class="lg:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
                     in:fade
                 >
                     <div class="flex flex-col space-y-3">
@@ -632,7 +632,7 @@
                     </p>
 
                     <div class="space-y-3 lg:space-y-4 mb-6 lg:mb-8">
-                        {#each [{ ikon: "🚀", metin: `${companyData.calisan} Uzman Ekip Üyesi` }, { ikon: "🌍", metin: `${companyData.ulke} Ülkede Faaliyet` }, { ikon: "💼", metin: `${companyData.proje}+ Başarılı Proje` }, { ikon: "🏆", metin: "Çoklu Sektör Ödülleri ve Tanınırlık" }] as item}
+                        {#each [{ ikon: "🚀", metin: `${companyData.calisan} Uzman Ekip Üyesi` }, { ikon: "🌍", metin: `${companyData.ulke} Ülkede Faaliyet` }, { ikon: "💼", metin: `${companyData.proje} Başarılı Proje` }, { ikon: "🏆", metin: "Çoklu Sektör Ödülleri ve Tanınırlık" }] as item}
                             <div
                                 class="flex items-center space-x-3 lg:space-x-4"
                             >
